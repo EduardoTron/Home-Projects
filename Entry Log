@@ -1,0 +1,24 @@
+logs/2025-05-10-proxmox-install.md
+
+# [2025-05-10] Proxmox Installation & Setup
+
+**Location**: Home Server Closet  
+**Main Task**: Installed Proxmox VE 8.4 on Samsung 970 EVO 500GB SSD
+
+---
+
+## What I Did
+
+- Flashed Proxmox VE to USB using Balena Etcher
+- Disabled RAID mode in BIOS
+- Set static IP: `192.168.1.208`
+- Installed Proxmox with hostname: `pve.myfiosgateway.com`
+- Moved system into closet with switch + router for full control
+
+---
+
+## Next Up
+
+- Set up Home Assistant VM
+- Restore Home Assistant backup
+- Start Plex + Docker container layout
